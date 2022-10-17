@@ -4,13 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/app.js" type="module"></script>
     <title>Formulario</title>
 </head>
 <body>
     <div class="bloquePadre">
           <h1>Formulario</h1>
           <form action="">
-               
+              <div class="bloqueHijo">
+                    <input type="text" id="name" placeholder="Nombre" required>
+              </div>
+              <div class="bloqueHijo">
+                    <input type="text" id="lastname" placeholder="Apellido"required>
+               </div>
+               <div class="bloqueHijo">
+                    <input type="email" id="email" placeholder="email" required>
+               </div>
+               <div class="bloqueHijo">
+                    <input type="password" id="password" placeholder="Contraseña" required>
+              </div>
+              <div>
+                    <button type="submit" id="btnRegistrar">Registrar</button>
+              </div>
           </form>
 
     </div>

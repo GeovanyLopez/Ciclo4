@@ -1,0 +1,23 @@
+.bloquePadre{
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bloqueHijo{
+    padding: 1%;
+    margin: 1%;
+}
+::placeholder{
+    text-align: center;
+}
+button{
+    background-color: rebeccapurple;
+    color: aliceblue;
+    font-size: 20px;
+    padding:6px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: mediumspringgreen;
+    color: black;
+}
